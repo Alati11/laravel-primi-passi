@@ -83,7 +83,7 @@
         </header>
     </div>    
     <div class="container-title">
-        <h1 class="title-home">Academics</h1>
+        <h1 class="title-home">{{ $title }}</h1>
     </div>
 
 </body>

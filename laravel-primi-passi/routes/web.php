@@ -15,25 +15,44 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/home', function () {
     // return view('welcome');
-    return view('home');
+    $data = [
+        'title' => 'Home'
+    ];
+    return view('home',$data);
 });
 
 Route::get('/contact', function () {
-    return view('contact');
+    $data = [
+        'title' => 'Contact'
+    ];
+    return view('contact', $data);
+
 });
 
 Route::get('/about', function () {
-    return view('about');
+    $data = [
+        'title' => 'About'
+    ];
+    return view('about',$data);
 });
 
 Route::get('/academics', function () {
-    return view('academics');
+    $data = [
+        'title' => 'Academics'
+    ];
+    return view('academics', $data);
 });
 
 Route::get('/courses', function () {
-    return view('courses');
+    $data = [
+        'title' => 'Courses'
+    ];
+    return view('courses', $data);
 });
 
 Route::get('/news', function () {
-    return view('news');
+    $data = [
+        'title' => 'News'
+    ];
+    return view('news', $data);
 });
