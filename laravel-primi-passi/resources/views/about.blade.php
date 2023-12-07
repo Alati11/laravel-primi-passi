@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="./css/app.css">
+    <title>About</title>
     <style>
         *{
             margin: 0;
@@ -16,7 +15,7 @@
             ol,
             li,
         menu {
-                list-style: none;
+                list-style: none
         }
 
         .container { 
@@ -49,16 +48,16 @@
         }
 
         .title-home {
-            color: #0000FF;
+            color: #CDC673;
             font-size: 100px;
             margin-top: 30px;
         }
     </style>
 
+
 </head>
 <body>
-
-    <div class="container">
+<div class="container">
         <header> 
             <ul class="menu">
                 <li>
@@ -83,7 +82,7 @@
         </header>
     </div>    
     <div class="container-title">
-        <h1 class="title-home">Home</h1>
+        <h1 class="title-home">About</h1>
     </div>
 
 </body>

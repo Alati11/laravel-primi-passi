@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>News</title>
     <link rel="stylesheet" href="./css/app.css">
     <style>
         *{
@@ -49,7 +49,7 @@
         }
 
         .title-home {
-            color: #0000FF;
+            color: #71C671;
             font-size: 100px;
             margin-top: 30px;
         }
@@ -83,7 +83,7 @@
         </header>
     </div>    
     <div class="container-title">
-        <h1 class="title-home">Home</h1>
+        <h1 class="title-home">News</h1>
     </div>
 
 </body>
